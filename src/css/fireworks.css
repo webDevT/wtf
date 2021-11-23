@@ -1,0 +1,12 @@
+.main-screen {
+  background: url("../img/DSC_1159.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.text-section a {
+  text-decoration: underline;
+  color: #000;
+}

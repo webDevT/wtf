@@ -1,0 +1,7 @@
+.main-screen {
+  background: url("../img/trouwerij.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}

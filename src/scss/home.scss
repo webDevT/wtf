@@ -1,0 +1,78 @@
+@import "variables";
+
+//start main-screen style
+.main-screen {
+	background: url('../img/main-screen-bg.png');
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;	
+}
+//end main-screen style
+
+//start img-section style
+.img-section {
+	background: url('../img/img-home.png');
+	background-position: top center;
+	background-size: cover;
+}
+//end img-section style
+
+// start green-section style
+.green-section {
+	margin-top: 180px;
+}
+// end green-section style
+
+
+//start dealer style
+.dealer {
+	margin-top: 180px;
+	position: relative;
+	min-height: 570px;
+	background: url('../img/dealer.png');
+	background-position: bottom right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 200px;
+	.container-fluid {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.button {
+		margin-left: 0;
+		margin-top: 20px;
+		background: #73231D;
+		width: 228px;
+	}
+}
+.dealer__content {
+	margin-right: 278px;
+}
+//end dealer style
+
+@media only screen and (max-width : 992px) {
+	.dealer .container-fluid {
+		justify-content: center;
+	}
+	.dealer__content {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.dealer  {
+		min-height: 114.667vw;
+		padding-top: 37.067vw;
+		margin-top: 34.667vw;
+		background-position: bottom right -70vw;
+		.bg-top {
+			display: block;
+		}
+		.button {
+			width: 50vw;
+		}
+	}
+
+	
+
+}

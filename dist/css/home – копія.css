@@ -1,0 +1,74 @@
+.main-screen {
+  background: url("../img/main-screen-bg.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.img-section {
+  background: url("../img/img-home.png");
+  background-position: top center;
+  background-size: cover;
+}
+
+.green-section {
+  margin-top: 180px;
+}
+
+.dealer {
+  margin-top: 180px;
+  position: relative;
+  min-height: 570px;
+  background: url("../img/dealer.png");
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+}
+
+.dealer .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.dealer .button {
+  margin-left: 0;
+  margin-top: 20px;
+  background: #73231D;
+  width: 228px;
+}
+
+.dealer__content {
+  margin-right: 278px;
+}
+
+@media only screen and (max-width: 992px) {
+  .dealer .container-fluid {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .dealer__content {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dealer {
+    min-height: 114.667vw;
+    padding-top: 37.067vw;
+    margin-top: 34.667vw;
+    background-position: bottom right -70vw;
+  }
+  .dealer .bg-top {
+    display: block;
+  }
+  .dealer .button {
+    width: 50vw;
+  }
+}

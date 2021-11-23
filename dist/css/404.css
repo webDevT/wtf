@@ -1,0 +1,139 @@
+.main-screen {
+  background: #000;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff;
+  padding-top: 260px;
+  min-height: 945px;
+}
+
+.main-screen__content .container-fluid {
+  min-height: auto;
+  position: relative;
+  z-index: 99;
+}
+
+.white-man {
+  margin-left: 70px;
+  display: block;
+  margin-right: 184px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  margin-left: 0;
+  font-size: 17px;
+}
+
+.white-text {
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 6px 13px;
+  font-size: 57px;
+  font-weight: 900;
+}
+
+.h1 {
+  font-size: 112px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.error__text-content {
+  -webkit-transform: translateY(-80px);
+      -ms-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
+.button--succ {
+  width: 300px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .white-man {
+    margin-left: 2vw;
+    display: block;
+    margin-right: 5vw;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .white-man {
+    margin-left: 0vw;
+    display: block;
+    margin-right: 3vw;
+  }
+  .h1 {
+    font-size: 10vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .white-man {
+    margin-right: 0;
+    margin-bottom: 3vw;
+  }
+  .error__text-content {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .main-screen {
+    padding-top: 20vw;
+    min-height: auto;
+    padding-bottom: 15vw;
+  }
+  .white-man {
+    width: 30vw;
+    margin-right: 2vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-screen {
+    padding-bottom: 10vw;
+    padding-top: 15vw;
+  }
+  .white-man {
+    width: 40vw;
+    margin-bottom: 5vw;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .h1 {
+    font-size: 15vw;
+  }
+  .white-text {
+    font-size: 10vw;
+    padding: 0.5vw 3vw;
+  }
+  .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .error__text-content {
+    -webkit-transform: translateY(-17vw);
+        -ms-transform: translateY(-17vw);
+            transform: translateY(-17vw);
+  }
+  .button--succ {
+    width: 75vw;
+    font-size: 4.2vw;
+  }
+}

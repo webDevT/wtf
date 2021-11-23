@@ -1,0 +1,20 @@
+.main-screen {
+  background: url("../img/2.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.updates-item {
+  margin-bottom: 124px;
+}
+
+@media only screen and (max-width: 768px) {
+  .orange-section__content .h2 br {
+    display: none;
+  }
+  .updates-item {
+    margin-bottom: 19.200vw;
+  }
+}

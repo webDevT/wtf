@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="755" height="854" viewBox="0 0 755 854">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="755" height="854" transform="translate(1802.415 -960.059)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-1802.415 960.059)" clip-path="url(#clip-path)">
+    <g id="Laag_2" data-name="Laag 2" transform="translate(1314.072 -1499.775)">
+      <g id="Layer_1" data-name="Layer 1">
+        <path id="Path_86" data-name="Path 86" d="M1185.4,8.39,876.86,643.182,1468.474,97.858Z" transform="translate(-149.314 -1.429)" fill="#50170d"/>
+        <path id="Path_87" data-name="Path 87" d="M325.03,1182.1l86.432,332.318L782.893,773.46Z" transform="translate(-55.347 -131.707)" fill="#db4e2c"/>
+        <path id="Path_88" data-name="Path 88" d="M1468.474,116.22,876.86,661.544l652.78-298.1Z" transform="translate(-149.314 -19.79)" fill="#da321f"/>
+        <path id="Path_89" data-name="Path 89" d="M0,1073.95,269.683,1182.1,727.546,773.46Z" transform="translate(0 -131.707)" fill="#af2b16"/>
+        <path id="Path_90" data-name="Path 90" d="M718.385,0,130.19,236.893,749.715,641.753,1058.254,6.961Z" transform="translate(-22.169)" fill="#af2b16"/>
+        <path id="Path_91" data-name="Path 91" d="M0,990.861l727.546-300.49L108.021,285.51Z" transform="translate(0 -48.617)" fill="#50170d"/>
+        <path id="Path_92" data-name="Path 92" d="M1622.865,1310.82l-220.9,203.6H429.2L800.631,773.47Z" transform="translate(-73.085 -131.708)" fill="#da321f"/>
+        <path id="Path_93" data-name="Path 93" d="M1529.64,414.18l-652.78,298.1,822.234,537.35,437.585-403.343V414.18Z" transform="translate(-149.314 -70.528)" fill="#db4e2c"/>
+      </g>
+    </g>
+  </g>
+</svg>

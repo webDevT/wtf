@@ -1,0 +1,19 @@
+@import "variables";
+
+//start main-screen style
+.main-screen {
+	background: url('../img/Team-vwt1.png');
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;	
+}
+//end main-screen style
+
+.text-section {
+	padding-bottom: 0;
+}
+
+@media only screen and (max-width : 992px) {
+
+}

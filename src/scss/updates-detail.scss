@@ -1,0 +1,22 @@
+@import "variables";
+
+//start main-screen style
+.main-screen {
+	background: url('../img/48A9831.png');
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;	
+}
+//end main-screen style
+
+.updates-detail__button {
+	width: 315px;
+}
+
+
+@media only screen and (max-width : 768px) {
+	.updates-detail__button {
+		width: 70vw;
+	}
+}
